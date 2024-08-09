@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
     
+    
 }
 .nav-bar{
     justify-content: space-evenly;
@@ -38,16 +39,19 @@
 
 }
 .nav-search .logo{
-    width: 70px;
+    width: 20px;
     height: 40px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    background-color:black;
+    background-color:rgb(203, 194, 194);
     color: white;
     
 }
+
 .nav-like{
     color: white;
+    transform: all ease-in-out 2.3s;
+    
     
 }
 .nav-like:hover{
