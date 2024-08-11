@@ -4,6 +4,7 @@
     font-family: sans-serif;
     
     
+    
 }
 .nav-bar{
     justify-content: space-evenly;
@@ -17,11 +18,12 @@
 
 }
 .nav-logo{
-    background-image:url(./tech\ company.png);
+    background-image:url(./images/WhatsApp\ Image\ 2024-08-09\ at\ 11.01.18\ PM.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 200px;
-    height: 90px;
+    height: 100px;
+    margin-bottom: 75px;
     
 }
 .nav-search{
@@ -63,5 +65,95 @@
 }
 .nav-cart:hover{
     transition: scale(1.1);
-    color: brown;
+    color: brown;}
+ .navbar-selector{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    margin:30px 0;
+ }
+ .selector{
+ padding: 20px;
+ background-color: rgb(203, 194, 194);
+ border: 1px solid white;
+ margin-left: 30px;
+ }
+ .selector li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding: 8px 0;
+ }
+ .selector a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+ }
+ .selector h6{
+    background-color: rgb(147, 131, 131);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: medium;
+
+ }
+ .navbar-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./images/./download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+ }
+ .navbar-image h2{
+    color: white;
+    font-size: 28px;
+ }
+ 
+ 
+   
+
+    
+    
+ 
+
+
+@media(max-width:400px){
+    .nav-search{
+        display: flex;
+        margin-right: 30px;
+        
+    }
+    .nav-search input{
+        height: 20px;
+        width: 200px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none 1px;
+        
+        
+    
+    }
+    .nav-search .logo{
+        width: 10px;
+        height: 20px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        background-color:rgb(203, 194, 194);
+        color: white;
+        
+    }
+    .nav-logo{
+        margin-top: 45px;
+    }
+    .box-selector{
+        background-color: aquamarine;
+    margin-right: 50%;
+        margin-left: 2%;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-decoration: none;
+        
+    }
 }
+    
