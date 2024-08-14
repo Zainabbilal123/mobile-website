@@ -334,6 +334,19 @@ text-align: center;}
     .watch4 h3{
 padding-top: 270px;
 text-align: center;}
+.last-navbar{
+    background-color: rgb(147, 131, 131);
+    margin-top: 40px;
+    text-align: center;
+}
+.last-navbar a img{
+    width: 60px;
+    margin-top: 20px;
+}
+.last-navbar p{
+    color: white;
+}
+
 
 
 
@@ -420,7 +433,7 @@ text-align: center;}
              }
              .navbar-laptops{
                 display: grid;
-                grid-template-rows:80%;
+                grid-template-rows:repeat(4);
 
                 justify-content: space-around;
              }
@@ -429,5 +442,9 @@ text-align: center;}
              background-color: rgb(203, 194, 194);
              border: 1px solid white;
             }
+        .navbar-watches{
+            display: grid;
+            grid-template-rows:repeat(4) ;
+        }
 }
     
