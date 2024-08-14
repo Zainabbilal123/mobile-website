@@ -108,6 +108,156 @@
     color: white;
     font-size: 28px;
  }
+ .navbar-phones{
+display: flex;
+justify-content: space-evenly;
+ }
+ .phone-bar{
+    padding:30px;
+ background-color: rgb(203, 194, 194);
+ border: 1px solid white;
+ 
+ 
+ 
+ 
+ }
+  .phone-bar .phone1{
+    background-image: url(./images/images__4_-removebg-preview.png);
+    width: 200px;
+    
+    background-repeat: no-repeat;
+    height: 300px;
+    align-items: center;}
+    .phone1 h5{
+       padding-left: 5px;
+       text-align: center;
+    }
+    .phone1 h3{
+padding-top: 270px;
+text-align: center;
+    }
+    h2{
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .phone-bar .phone2{
+        background-image: url(./images/download__7_-removebg-preview\ \(2\).png);
+        
+        width: 200px;
+        background-repeat: no-repeat;
+        height: 300px;
+        align-items: center;}
+        
+        .phone2 h5{
+            padding-left: 5px;
+            text-align: center;
+         }
+         .phone2 h3{
+     padding-top: 270px;
+     text-align: center}
+
+        .phone-bar .phone3{
+            background-image: url(./images/download__3_-removebg-preview.png);
+            width: 200px;
+            
+            background-repeat: no-repeat;
+            height: 300px;
+            align-items: center;}
+            .phone3 h5{
+                padding-left: 5px;
+                text-align: center;
+             }
+             .phone3 h3{
+         padding-top: 270px;
+         text-align: center}
+            .phone-bar .phone4{
+                background-image: url(./images/download__4_-removebg-preview.png);
+                width: 210px;
+                
+                background-repeat: no-repeat;
+                height: 300px;
+                align-items: center;}
+                .phone4 h5{
+                    padding-left: 5px;
+                    text-align: center;
+                 }
+                 .phone4 h3{
+             padding-top: 270px;
+             text-align: center}
+.navbar-laptops{
+    display: flex;
+    justify-content: space-evenly;
+}
+.laptops-bar{
+    padding:20px;
+ background-color: rgb(203, 194, 194);
+ border: 1px solid white;}
+ .laptops-bar .phone5{
+    background-image: url(./images/);
+    width: 200px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    height: 300px;
+    align-items: center;
+padding-right: 20px;}
+    .phone5 h5{
+       padding-left: 5px;
+       text-align: center;
+    }
+    .phone5 h3{
+padding-top: 270px;
+text-align: center;}
+.laptops-bar .phone6{
+    background-image: url(./images/images-removebg-preview\ \(1\).png);
+    width: 245px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    height: 300px;
+    align-items: center;}
+    .phone6 h5{
+       padding-left: 5px;
+       text-align: center;
+    }
+    .phone6 h3{
+padding-top: 270px;
+text-align: center;}
+.laptops-bar .phone7{
+    background-image: url(./images/);
+    width: 230px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    height: 200px;
+    align-items: center;}
+    .phone7 h5{
+       padding-left: 5px;
+       text-align: center;
+    }
+    .phone7 h3{
+padding-top: 270px;
+text-align: center;}
+.laptops-bar .phone8{
+    background-image: url(./images/download__5_-removebg-preview\ \(1\).png);
+    width: 215px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    height: 300px;
+    align-items: center;}
+    .phone8 h5{
+       padding-left: 5px;
+       text-align: center;
+    }
+    .phone8 h3{
+padding-top: 270px;
+text-align: center;}
+ 
+ 
+ 
+ 
+ 
+    
+    
+    
+
  
  
    
@@ -155,5 +305,29 @@
         text-decoration: none;
         
     }
+    .selector{
+        
+        background-color: rgb(203, 194, 194);
+        border: 1px solid white;
+        
+        }
+        .navbar-selector{
+            display: grid;
+            grid-template-columns:40% 75%;
+            
+         }
+         .navbar-image h2{
+            font-size: medium;
+            margin-right: 50px;
+            
+         }
+         .navbar-image{
+            width: 70%;
+         }
+         .navbar-phones{
+            display: grid;
+            grid-template-rows: repeat(4,);
+            justify-content: space-evenly;
+             }
 }
     
